@@ -5,20 +5,21 @@ import { Sidenav, Nav, Navbar, Dropdown, Sidebar, Button, ButtonToolbar } from '
 import Popover from 'rsuite/Popover';
 import Whisper from 'rsuite/Whisper';
 
-import Cog from '@rsuite/icons/cog';
-import PageNext from '@rsuite/icons/PageNext';
-import PagePrevious from '@rsuite/icons/PagePrevious';
-import Dashboard from '@rsuite/icons/Dashboard';
-import Group from '@rsuite/icons/Group';
-import User from '@rsuite/icons/User';
-import Magic from '@rsuite/icons/Magic';
-import ThLarge from '@rsuite/icons/ThLarge';
-import SignIn from '@rsuite/icons/SignIn';
+// import Cog from '@rsuite/icons/legacy/cog';
+import GearIcon  from '@rsuite/icons/Gear';
+import PageNext from '@rsuite/icons/legacy/PageNext';
+import PagePrevious from '@rsuite/icons/legacy/PagePrevious';
+import Dashboard from '@rsuite/icons/legacy/Dashboard';
+import Group from '@rsuite/icons/legacy/Group';
+import User from '@rsuite/icons/legacy/User';
+import Magic from '@rsuite/icons/legacy/Magic';
+import ThLarge from '@rsuite/icons/legacy/ThLarge';
+import SignIn from '@rsuite/icons/legacy/SignIn';
 import AddOutline from '@rsuite/icons/AddOutline';
-import SignOut from '@rsuite/icons/SignOut';
-import MoonO from '@rsuite/icons/MoonO';
-import SunO from '@rsuite/icons/SunO';
-import EyeSlash from '@rsuite/icons/EyeSlash';
+import SignOut from '@rsuite/icons/legacy/SignOut';
+import MoonO from '@rsuite/icons/legacy/MoonO';
+import SunO from '@rsuite/icons/legacy/SunO';
+import EyeSlash from '@rsuite/icons/legacy/EyeSlash';
 import Combination from '@rsuite/icons/Combination';
 import { Notification, toaster } from 'rsuite';
 
@@ -45,7 +46,7 @@ const NavToggle = ({ theme, setTheme, expand, onChange }) => {
                         }
                     >
                         <Button appearance="subtle" className={style.CogBtn}>
-                            <Cog className={currentCogClass} onClick={() => {
+                            <GearIcon className={currentCogClass} onClick={() => {
                                 if (currentCogClass === style.CogItselfStart) {
                                     setCurrentCogClass(style.CogItselfRotated);
                                 } else {
