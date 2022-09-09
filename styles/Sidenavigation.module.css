@@ -1,0 +1,37 @@
+.sidenavigation {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 1em; */
+    /* font-weight: bold; */
+    box-shadow: 1px 0px 5px 0px #3e3d3d93;
+}
+
+
+.CogBtn {
+    font-size: 2em;
+    position: relative;
+    top: 5px;
+    transition: all 1s ease-in-out;
+}
+
+.CogItselfStart {
+    transform: rotate(0deg);
+}
+.CogItselfRotated {
+    transform: rotate(30deg);
+}
+
+.headerStyles {
+    padding: 1em;
+    font-size: 1.4em;
+    height: 3em;
+    background: #34c3ff;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight:650;
+}

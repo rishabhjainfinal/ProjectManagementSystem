@@ -1,0 +1,65 @@
+.ErrorPagepage_404 {
+  background: #fff;
+  font-family: "Arvo", serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.ErrorPagecointainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.ErrorPagetext404{
+    font-size: 6em;
+    align-self: flex-start  ;
+    margin-left: 4vw;
+}
+
+.ErrorPagepage_404 img {
+  width: 100%;
+}
+
+.ErrorPageimageGIF {
+  max-width: 800px;
+  max-height: 55vh;
+  height: 400px;
+  overflow:hidden ;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ErrorPagelink_404 {
+  color: #fff !important;
+  background: #39ac31;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 4em;
+  padding: 10px;
+
+}
+
+.ErrorPagecontant_box_404 {
+  text-align: center;
+}
+.ErrorPagecontant_box_404 > *{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 2em;
+}
+P{
+    font-size: 1.2em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

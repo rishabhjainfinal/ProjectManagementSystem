@@ -1,0 +1,74 @@
+.container{
+    padding: 1em;
+}
+.uploadcsv{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tittle{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #00bcd4;
+    margin-bottom: 1em;
+}
+
+.formItself{
+}
+
+.inputAreaCointainer{
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+.inputCointainer{
+    width: 30em;
+    padding: 1em 2em ;
+    display: flex;
+    flex-direction: column;
+}
+.lableforInput{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.inputItself{
+    font-size: 1.5em;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 3px 10px;
+    background: transparent;
+    border: 2px solid;
+}
+
+.updateBtn{
+    background-color: transparent;
+    border: 2px solid ;
+    font-size: 2em;
+    padding: .2em 1em;
+    border-radius: 10px;
+
+    position: relative;
+    /* top : 38%; */
+    right: 5em;
+    transition: all 0.1s ease-in-out;
+}
+.updateBtn:hover{
+    background: #34c3ff;
+    border: none;
+    transform: scale(1.01);
+    box-shadow: 10px 10px 1px 2px ;
+}
+
+.formGroup{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 1em; */
+    justify-content: space-between;
+}

@@ -1,0 +1,61 @@
+.NavTop {
+    background-color: transparent;
+    border-bottom: 1px solid #34c3ff;
+    height: 60px;
+    line-height: 55px;
+    display: table;
+    margin: 0 auto;
+}
+
+.navWrapper {
+    min-width: 83vw;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.breadcrumbs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    cursor: pointer;
+}
+
+.eachBreadCrubsMiddle{
+    color: inherit;    
+    padding: 0 10px ;
+}
+
+.eachBreadCrubs {
+    font-size: 1.5em;
+    transition: transform 0.1s;
+}
+.eachBreadCrubs:hover {
+    color: #34c3ff;
+    transform: scale(1.01);
+}
+
+.userLogo {
+    width: 4em;
+    height: 3.6em;
+    transition: transform 0.1s;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userLogo:hover {
+    transform: scale(1.05);
+}
+
+.ImageItself {
+    transform: scale(1.2);
+}
+
+.imageCointainer{
+    position: relative;
+    top: 10px;
+}

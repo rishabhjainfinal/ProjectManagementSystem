@@ -1,0 +1,16 @@
+.cointainer{
+    width: 100%;
+    height: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.groupHeadTitle{
+    font-size: 2em;
+    font-weight: bold;
+    padding: .4em 1em;
+}
+.card{
+    margin: 1em 0;
+}

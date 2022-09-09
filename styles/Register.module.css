@@ -1,0 +1,149 @@
+/* login page css*/
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap");
+
+.sectionMotion {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.nav{
+  position: absolute;
+  left : 50%;
+  padding: 10px;
+  width: 70%;
+  transform: translate(-50%, 0%);
+}
+.container {
+  min-height: 100vh;
+  width: 90%;
+  /* max-width: 20em; */
+  margin: 1em auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 5s;
+}
+
+.leftside {
+  width: 35%;
+  background-color: #e9eef6;
+  height: 600px;
+  border-radius: 7px;
+  box-shadow: 1px 20px 129px -24px white;
+}
+
+.rightside {
+  flex-grow: 1;
+  border-radius: 7px;
+  margin-left: -60px;
+  padding: 12px 30px;
+  max-height: 45em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: radial-gradient(ellipse at left bottom,
+      rgba(22, 24, 47, 0.781) 0%,
+      rgba(38, 20, 72, 0.89) 59%,
+      rgba(17, 27, 75, 0.9) 100%);
+  box-shadow: inset 0px 0px 20px 2px #88888839;
+  backdrop-filter: blur(50px);
+}
+
+
+
+.label {
+  color: white;
+  letter-spacing: 1px;
+  margin: 10px 5px;
+  display: block;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  padding: 5px ;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+
+.inputCatogoty {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  /* padding: 10px 0; */
+  margin: 5px 0;
+  background: rgba(255, 255, 255, 0.1);
+  /* color: #fff; */
+  letter-spacing: 2px;
+  /* border-radius: 5px; */
+}
+
+.BtnItself {
+  border: none;
+  outline: none;
+  width: 45%;
+  padding: 15px 0;
+  color: #fff;
+  letter-spacing: 1px;
+  background: #3587e4;
+  cursor: pointer;
+  font-size: 1.2em;
+  border-radius: 10px;
+}
+.BtnItself:hover{
+  transition: transform 0.1s;
+  transform: scale(1.01);
+
+}
+.btnContainer {
+  width: 100%;
+  padding: 12px 0;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.heading {
+  color: white;
+  font-size: 2em;
+}
+
+.imageCointainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageItself {
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .leftside {
+    display: none;
+  }
+
+  .rightside {
+    width: 100%;
+    margin-left: auto;
+    padding: 1px 25px;
+  }
+
+  .heading {
+    font-size: 2.8em;
+  }
+
+  .nav{
+    visibility: hidden;
+    display: none;
+  }
+}
